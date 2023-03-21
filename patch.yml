@@ -1,5 +1,5 @@
 ---
-- host: cluster #1
+- hosts: cluster #1
 
 - name: Apt-get update
   apt:
