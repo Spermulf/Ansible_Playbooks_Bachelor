@@ -1,5 +1,5 @@
 ---
-- host: "{{ host_name }}"
+- host: 35.176.91.158
 
 - name: Apt-get update
   apt:
