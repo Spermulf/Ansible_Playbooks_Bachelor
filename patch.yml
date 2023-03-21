@@ -1,5 +1,5 @@
 ---
-- host: 35.176.91.158
+- host: cluster #1
 
 - name: Apt-get update
   apt:
