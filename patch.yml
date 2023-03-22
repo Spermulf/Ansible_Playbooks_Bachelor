@@ -27,5 +27,6 @@
       when: reboot_required.stat.exists and reboot_ok
 
     - name: "Apt-get autoremove"
+      become: yes
       apt:
         autoremove: yes
