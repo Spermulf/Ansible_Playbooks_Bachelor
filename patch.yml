@@ -8,6 +8,7 @@
         update_cache: yes
 
     - name: Apt-get dist-upgrade
+      become: yes
       apt:
         upgrade: dist
 
