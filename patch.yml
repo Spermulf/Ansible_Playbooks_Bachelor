@@ -1,5 +1,5 @@
 ---
-- hosts: cluster #1
+- hosts: 18.168.149.9
 
 - name: Apt-get update
   apt:
