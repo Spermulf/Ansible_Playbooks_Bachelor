@@ -3,6 +3,7 @@
 
   tasks:
     - name: Apt-get update
+      become: yes
       apt:
         update_cache: yes
 
