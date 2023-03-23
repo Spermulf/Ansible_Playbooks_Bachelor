@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  serial: 1
 
   tasks:
     - name: Apt-get update
