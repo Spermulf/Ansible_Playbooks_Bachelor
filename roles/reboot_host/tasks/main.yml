@@ -10,4 +10,3 @@
     sleep: 6
     delay: 6
     timeout: 300
-    register: reboot_ok
