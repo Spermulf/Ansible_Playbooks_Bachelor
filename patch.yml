@@ -24,7 +24,7 @@
     - name: Reboot host
       include_role:
         name: reboot_host
-      when: reboot_required.stat.exists and reboot_ok
+      when: reboot_required.stat.exists
 
     - name: "Apt-get autoremove"
       become: yes
