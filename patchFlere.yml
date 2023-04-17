@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ extra_vars }}"
+- hosts: "{{ host_name }}"
   serial: 1
 
   tasks:
