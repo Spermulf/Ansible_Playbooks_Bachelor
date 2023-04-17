@@ -1,5 +1,6 @@
 ---
-- hosts: "{{ host_name }}"
+- name: Patch flere hosts
+  hosts: "{{ host_name }}"
   serial: 1
 
   tasks:
