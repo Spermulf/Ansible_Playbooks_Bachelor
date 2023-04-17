@@ -3,7 +3,7 @@ hosts:
   - "{{ host-name }}"
   - serial: 1
 
-  tasks:
+  - tasks:
     - name: Apt-get update
       become: yes
       apt:
