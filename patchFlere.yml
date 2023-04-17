@@ -1,5 +1,5 @@
 ---
-- host: 
+hosts: 
   - "{{ host-name }}"
   serial: 1
 
