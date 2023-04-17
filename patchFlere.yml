@@ -1,5 +1,6 @@
 ---
-- hosts: "{{ host-name }}"
+- hosts: 
+  - "{{ host-name }}"
   serial: 1
 
   tasks:
